@@ -1,1 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2022-09-24T06:07:53.544Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.2.3" etag="SyU8EZjX0Vcnu_AUdih5" type="github"><diagram id="6wOWDSGZ3oSbE4QhWnmc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-24T06:11:33.161Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="eBUBCr1j0ibqR0XwelyB" version="20.2.3" type="github">
+  <diagram id="6wOWDSGZ3oSbE4QhWnmc" name="페이지-1">
+    <mxGraphModel dx="586" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E5K0-lmiR05s8DTlneMI-1" value="&lt;b&gt;JpaRepository&lt;/b&gt;&lt;br&gt;interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5K0-lmiR05s8DTlneMI-2" value="&lt;b&gt;RepositoryCutom&lt;/b&gt;&lt;br&gt;interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5K0-lmiR05s8DTlneMI-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E5K0-lmiR05s8DTlneMI-3" target="E5K0-lmiR05s8DTlneMI-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5K0-lmiR05s8DTlneMI-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="E5K0-lmiR05s8DTlneMI-3" target="E5K0-lmiR05s8DTlneMI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5K0-lmiR05s8DTlneMI-3" value="&lt;b&gt;Repository&lt;/b&gt;&lt;br&gt;interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5K0-lmiR05s8DTlneMI-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="E5K0-lmiR05s8DTlneMI-4" target="E5K0-lmiR05s8DTlneMI-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5K0-lmiR05s8DTlneMI-4" value="&lt;b&gt;RepositoryImpl&lt;/b&gt;&lt;br&gt;class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E5K0-lmiR05s8DTlneMI-8" value="extends" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E5K0-lmiR05s8DTlneMI-9" value="extends" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E5K0-lmiR05s8DTlneMI-10" value="implements" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E5K0-lmiR05s8DTlneMI-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="E5K0-lmiR05s8DTlneMI-12" target="E5K0-lmiR05s8DTlneMI-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E5K0-lmiR05s8DTlneMI-12" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="225" y="480" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
